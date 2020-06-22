@@ -2,7 +2,7 @@
 
 ## Embedded Device Hacking
 * Fyrbiak, Marc, et al. "Hardware reverse engineering: Overview and open challenges." 2017 IEEE 2nd International Verification and Security Workshop (IVSW). IEEE, 2017. 
-  * 
+
 * Quadir, Shahed E., et al. "A survey on chip to system reverse engineering." ACM journal on emerging technologies in computing systems (JETC) 13.1 (2016): 1-34.
   * 칩, 보드, 시스템 리버싱 및 안티리버싱 기법 정리한 서베이 논문 (우선 시스템 리버싱만 정리)
 
@@ -22,11 +22,12 @@
 * Baldoni, Roberto, et al. "A survey of symbolic execution techniques." ACM Computing Surveys (CSUR) 51.3 (2018): 1-39.
   * 역난독화를 위한 symbolic execution 서베이 논문 분석
  
-* 
 
 ## Code Obfuscation and Diversification
+* Zheng, Jason X., Dongfang Li, and Miodrag Potkonjak. „A secure and unclonable embedded system using instruction-level PUF authentication.” 2014 24th International Conference on Field Programmable Logic and Applications (FPL). IEEE, 2014.
+  * PUF를 이용하여 실행 머신코드와 실행 환경이 명령어 수준에서 서로 인증하도록 하는 기법
+* Chang, Chip-Hong, Yue Zheng, and Le Zhang. "A retrospective and a look forward: Fifteen years of physical unclonable function advancement." IEEE Circuits and Systems Magazine 17.3 (2017): 32-62.
+  * PUF의 개념, 특징, 활용 및 공격 정리 (논문 + a)
 * Hosseinzadeh, Shohreh & Hyrynsalmi, Sami & Leppänen, Ville. 'Obfuscation and Diversification for Securing the Internet of Things (IoT)' (2016). 10.1016/B978-0-12-805395-9.00014-9. 
-
-  * lightweighted solution needed, 
-  
+  * 경량화 된 보안 기법 필요 (다양화, 난독화)  
 * Fyrbiak, Marc, et al. "Hybrid obfuscation to protect against disclosure attacks on embedded microprocessors." IEEE Transactions on Computers 67.3 (2017): 307-321. 
