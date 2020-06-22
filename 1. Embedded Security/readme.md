@@ -1,15 +1,31 @@
 # 1. Embedded Security
 
 ## Embedded Device Hacking
-* 
+* Fyrbiak, Marc, et al. "Hardware reverse engineering: Overview and open challenges." 2017 IEEE 2nd International Verification and Security Workshop (IVSW). IEEE, 2017. 
+  * 
+* Quadir, Shahed E., et al. "A survey on chip to system reverse engineering." ACM journal on emerging technologies in computing systems (JETC) 13.1 (2016): 1-34.
+  * 칩, 보드, 시스템 리버싱 및 안티리버싱 기법 정리한 서베이 논문 (우선 시스템 리버싱만 정리)
+
+## Firmware Emulation
+* Zaddach, Jonas, et al. "AVATAR: A Framework to Support Dynamic Security Analysis of Embedded Systems' Firmwares." NDSS. Vol. 14. 2014.
+  * 펌웨어 에뮬레이팅을 위해 AVATAR 도구가 물리 장치와 외부 에뮬레이터 사이의 중간 인터페이스 역할 수행
+  
+* Gustafson, Eric, et al. "Toward the analysis of embedded firmware through automated re-hosting." 22nd International Symposium on Research in Attacks, Intrusions and Defenses ({RAID} 2019). 2019.
+  * 펌웨어 동적분석을 위한 에뮬레이팅 기법으로 '펌웨어 리호스팅' 제시. 펌웨어를 하드웨어 환경에서 가상환경으로 옮겨 오는 절차. 주변장치 모델 생성하는 방식으로, 분석을 위한 가상환경 자동 생성 (PRETENDER)
 
 
 ## Code Deobfuscation
-* 
+* Yadegari, Babak, et al. "A generic approach to automatic deobfuscation of executable code." 2015 IEEE Symposium on Security and Privacy. IEEE, 2015.
+  * 에뮬레이션 기반 난독화, ROP 방식 난독화에 대해 taint analysis를 적용해 프로그램의 semantic 파악하고, 로직을 단순화하여 CFG 생성하는 기법
+* Liang, Mingyue, et al. "Deobfuscation of virtualization-obfuscated code through symbolic execution and compilation optimization." International Conference on Information and Communications Security. Springer, Cham, 2017.
+  * 가상화 난독화(virtualization-obfuscation)에 대해 recording, symbolic execution, 컴파일 최적화를 이용해 역난독화 시도
+* Baldoni, Roberto, et al. "A survey of symbolic execution techniques." ACM Computing Surveys (CSUR) 51.3 (2018): 1-39.
+  * 역난독화를 위한 symbolic execution 서베이 논문 분석
+ 
 * 
 
 ## Code Obfuscation and Diversification
-* Hosseinzadeh, Shohreh & Hyrynsalmi, Sami & Leppänen, Ville. (2016). Obfuscation and Diversification for Securing the Internet of Things (IoT). 10.1016/B978-0-12-805395-9.00014-9. 
+* Hosseinzadeh, Shohreh & Hyrynsalmi, Sami & Leppänen, Ville. 'Obfuscation and Diversification for Securing the Internet of Things (IoT)' (2016). 10.1016/B978-0-12-805395-9.00014-9. 
 
   * lightweighted solution needed, 
   
